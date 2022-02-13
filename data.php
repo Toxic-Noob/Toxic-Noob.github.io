@@ -1,14 +1,4 @@
-<html>
-<head>
-<link href='https://fonts.googleapis.com/css?family=Merienda' rel='stylesheet'>
-<style>
-body { font-family: 'Merienda';font-size: 22px;
-}
-</style>
-</head>
-<body align="center" style="color:rgb(63,255,0); font-size:20px;">
-</body>
-</html>
+
 <?php
 // Get Http Request
 function get_send($url) { $status = null; $headers = @get_headers($url, 1); if (is_array($headers)) { $status = substr($headers[0], 9); } return $status; }
